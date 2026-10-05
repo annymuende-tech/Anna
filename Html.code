@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anny Muende - Accueil</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<header>
+<nav class="navbar">
+<strong>Anny Muende</strong>
+<div>
+<a href="index.html">Accueil</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+</header>
+<main>
+<section class="hero">
+<h1>Je suis Anny Muende, Développeuse Web & Designer</h1>
+<p>Bienvenue sur mon portfolio réalisé sur Figma Make et déployé sur GitHub Pages.</p>
+<a href="services.html" class="btn">Voir mes services</a>
+<a href="https://www.figma.com/make/ksGNd0GNIRslBHEd9NcqHQ/SITE-WEB-DE-ANNY-MUENDE?fullscreen=1" target="_blank" class="btn-outline">Voir ma maquette Figma</a>
+</section>
+</main>
+<footer><p>© 2026 Anny Muende</p></footer>
+</body>
+</html>
