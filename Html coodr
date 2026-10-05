@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Anny Muende</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<header>
+<nav class="navbar">
+<strong>Anny Muende</strong>
+<div><a href="index.html">Accueil</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div>
+</nav>
+</header>
+<main>
+<h1>Contactez-moi</h1>
+<form id="contactForm" class="form">
+<input type="text" placeholder="Votre nom" required>
+<input type="email" placeholder="Votre email" required>
+<textarea placeholder="Votre message" required></textarea>
+<button type="submit" class="btn">Envoyer</button>
+<p id="msg"></p>
+</form>
+</main>
+<footer><p>© 2026 Anny Muende</p></footer>
+<script>
+document.getElementById('contactForm').addEventListener('submit', e=>{
+e.preventDefault();
+document.getElementById('msg').textContent="Merci Anny ! Message bien reçu !";
+});
+</script>
+</body>
+</html>
